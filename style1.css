@@ -1,0 +1,24 @@
+.col-sm-6{
+  
+  transition: transform .2s; /* Animation */
+  padding-left: 125px;
+  
+  }
+
+.col-sm-6:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+h1{
+	font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	padding-top: 50px;
+}
+h2{
+	font-size: 40px;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+}

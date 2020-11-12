@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter your name below to save your score!</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event) " disabled>Save</button>
+            </form>
+           
+            
+        </div>
+    </div>
+
+ <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+  apiKey: "AIzaSyCIOUq8WJVVOYMQFEMNuBDcUOo5GN06ZLk",
+  authDomain: "quizlogin-21c69.firebaseapp.com",
+  databaseURL: "https://quizlogin-21c69.firebaseio.com",
+  projectId: "quizlogin-21c69",
+  storageBucket: "quizlogin-21c69.appspot.com",
+  messagingSenderId: "697049988084",
+  appId: "1:697049988084:web:48c2737c783fa1943157a1",
+  measurementId: "G-29BG0FQ3YX"
+};
+   
+  </script>
+    <script src="end.js"></script>
+</body>
+</html>
